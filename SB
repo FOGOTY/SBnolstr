@@ -1,0 +1,212 @@
+local function createGui(parent)
+	--ScreenGui1--
+	local ScreenGui1 = Instance.new("ScreenGui",parent)
+	ScreenGui1["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling
+	----ScreenGui1----
+	--Frame2--
+	local Frame2 = Instance.new("Frame",ScreenGui1)
+	Frame2["Position"] = UDim2.new(0.449152529, 0, 0.128395066, 0)
+	Frame2["BorderColor3"] = Color3.new(0, 0, 0)
+	Frame2["Size"] = UDim2.new(0, 250, 0, 95)
+	Frame2["BorderSizePixel"] = 0
+	Frame2["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame2----
+	--TextButton3--
+	local TextButton3 = Instance.new("TextButton",Frame2)
+	TextButton3["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton3["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton3["Text"] = "AntiVoid"
+	TextButton3["Font"] = Enum.Font.SourceSans
+	TextButton3["Name"] = "AntiVoid"
+	TextButton3["Position"] = UDim2.new(0, 0, 0.454250306, 0)
+	TextButton3["TextSize"] = 14
+	TextButton3["Size"] = UDim2.new(0, 130, 0, 50)
+	TextButton3["BorderSizePixel"] = 0
+	TextButton3["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton3----
+	--Script4--
+	local Script4 = Instance.new("Script",TextButton3)
+	----Script4----
+	--TextButton5--
+	local TextButton5 = Instance.new("TextButton",Frame2)
+	TextButton5["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton5["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton5["Text"] = "FOGGYOUT LOL"
+	TextButton5["Font"] = Enum.Font.LuckiestGuy
+	TextButton5["Name"] = "name"
+	TextButton5["TextSize"] = 14
+	TextButton5["Size"] = UDim2.new(0, 233, 0, 50)
+	TextButton5["BorderSizePixel"] = 0
+	TextButton5["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton5----
+	--TextButton6--
+	local TextButton6 = Instance.new("TextButton",Frame2)
+	TextButton6["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton6["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton6["Text"] = "N smap"
+	TextButton6["Font"] = Enum.Font.SourceSans
+	TextButton6["Name"] = "N SMAP"
+	TextButton6["Position"] = UDim2.new(0.526315808, 0, 0.454250306, 0)
+	TextButton6["TextSize"] = 14
+	TextButton6["Size"] = UDim2.new(0, 117, 0, 50)
+	TextButton6["BorderSizePixel"] = 0
+	TextButton6["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton6----
+	--Script7--
+	local Script7 = Instance.new("Script",TextButton6)
+	----Script7----
+	--TextButton8--
+	local TextButton8 = Instance.new("TextButton",Frame2)
+	TextButton8["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton8["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton8["Text"] = "Rability(BH)"
+	TextButton8["Font"] = Enum.Font.SourceSans
+	TextButton8["Name"] = "Rability"
+	TextButton8["Position"] = UDim2.new(0.00400000019, 0, 0.980566084, 0)
+	TextButton8["TextSize"] = 14
+	TextButton8["Size"] = UDim2.new(0, 130, 0, 50)
+	TextButton8["BorderSizePixel"] = 0
+	TextButton8["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton8----
+	--Script9--
+	local Script9 = Instance.new("Script",TextButton8)
+	----Script9----
+	--TextButton10--
+	local TextButton10 = Instance.new("TextButton",Frame2)
+	TextButton10["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton10["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton10["Text"] = "reverse hack(reverse)"
+	TextButton10["Font"] = Enum.Font.SourceSans
+	TextButton10["Name"] = "reverce reverse hack"
+	TextButton10["Position"] = UDim2.new(0.5, 0, 0.980566084, 0)
+	TextButton10["TextSize"] = 14
+	TextButton10["Size"] = UDim2.new(0, 125, 0, 50)
+	TextButton10["BorderSizePixel"] = 0
+	TextButton10["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton10----
+	--Script11--
+	local Script11 = Instance.new("Script",TextButton10)
+	----Script11----
+	--TextButton12--
+	local TextButton12 = Instance.new("TextButton",Frame2)
+	TextButton12["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton12["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton12["Text"] = "UNIVESP"
+	TextButton12["Font"] = Enum.Font.SourceSans
+	TextButton12["Name"] = "uni esp"
+	TextButton12["Position"] = UDim2.new(0.00400000019, 0, 1.50688183, 0)
+	TextButton12["TextSize"] = 14
+	TextButton12["Size"] = UDim2.new(0, 130, 0, 50)
+	TextButton12["BorderSizePixel"] = 0
+	TextButton12["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton12----
+	--Script13--
+	local Script13 = Instance.new("Script",TextButton12)
+	----Script13----
+	--TextButton14--
+	local TextButton14 = Instance.new("TextButton",Frame2)
+	TextButton14["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton14["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton14["Text"] = "anti dcube"
+	TextButton14["Font"] = Enum.Font.SourceSans
+	TextButton14["Name"] = "anti dcube"
+	TextButton14["Position"] = UDim2.new(0.5, 0, 1.50688183, 0)
+	TextButton14["TextSize"] = 14
+	TextButton14["Size"] = UDim2.new(0, 125, 0, 50)
+	TextButton14["BorderSizePixel"] = 0
+	TextButton14["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton14----
+	--Script15--
+	local Script15 = Instance.new("Script",TextButton14)
+	----Script15----
+	--Script16--
+	local Script16 = Instance.new("Script",ScreenGui1)
+	----Script16----
+	--TextButton17--
+	local TextButton17 = Instance.new("TextButton",ScreenGui1)
+	TextButton17["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton17["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton17["Text"] = "toggle ui"
+	TextButton17["Font"] = Enum.Font.SourceSans
+	TextButton17["Position"] = UDim2.new(0.0550847463, 0, 0.25555557, 0)
+	TextButton17["TextSize"] = 14
+	TextButton17["Size"] = UDim2.new(0, 66, 0, 29)
+	TextButton17["BorderSizePixel"] = 0
+	TextButton17["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton17----
+	spawn(function() --Source for Script4
+		local script = Script4
+		script.Parent.Activated:Connect(function()
+			for i,v in pairs(game.Workspace:GetDescendants()) do
+				if v.Name == "dedBarrier"  or v.Name == "ArenaBarrier" or v.Name == "DEATHBARRIER" or v.Name == "DEATHBARRIER2" then               
+					v.CanCollide = true
+					v.Material = "ForceField"
+					v.Color = Color3.new(255,255,255)
+					v.Transparency = .9
+				end  
+			end 
+		end)
+	end)
+	spawn(function() --Source for Script7
+		local script = Script7
+		script.Parent.Activated:Connect(function()
+		game:GetService("ReplicatedStorage").NullAbility:FireServer()
+		end)
+	end)
+	spawn(function() --Source for Script9
+		local script = Script9
+		script.Parent.Activated:Connect(function()
+			game:GetService("ReplicatedStorage").RetroAbility:FireServer("Ban Hammer")
+		end)
+	end)
+	spawn(function() --Source for Script11
+		local script = Script11
+		script.Parent.Activated:Connect(function()
+			game:GetService("ReplicatedStorage").ReverseAbility:FireServer()
+			wait(6)
+		end)
+	end)
+	spawn(function() --Source for Script13
+		local script = Script13
+		script.Parent.Activated:Connect(function()
+			for i, v in ipairs(game.Players:GetChildren()) do
+				if v ~= game.Players.LocalPlayer and v.Character and v.Character:FindFirstChild("Head") and v.Character:FindFirstChild("entered") and v.Character.IsInDefaultArena.Value == false and v.Character.Head:FindFirstChild("GloveEsp") == nil then
+					GloveEsp = Instance.new("BillboardGui", v.Character.Head)
+					GloveEsp.Adornee = v.Character.Head
+					GloveEsp.Name = "GloveEsp"
+					GloveEsp.Size = UDim2.new(0, 100, 0, 150)
+					GloveEsp.StudsOffset = Vector3.new(0, 1, 0)
+					GloveEsp.AlwaysOnTop = true
+					GloveEsp.StudsOffset = Vector3.new(0, 3, 0)
+					GloveEspText = Instance.new("TextLabel", GloveEsp)
+					GloveEspText.BackgroundTransparency = 1
+					GloveEspText.Size = UDim2.new(0, 100, 0, 100)
+					GloveEspText.TextSize = 25
+					GloveEspText.Font = Enum.Font.SourceSansSemibold
+					GloveEspText.TextColor3 = Color3.new(255, 255, 255)
+					GloveEspText.TextStrokeTransparency = 0
+					GloveEspText.Text = v.leaderstats.Glove.Value
+				end
+			end
+		end)
+	end)
+	spawn(function() --Source for Script15
+		local script = Script15
+		script.Parent.Activated:Connect(function()
+			if game.Workspace:FindFirstChild("the cube of death(i heard it kills)", 1) then
+				workspace.Arena.CubeOfDeathArea["the cube of death(i heard it kills)"].CanTouch = false
+			end
+		end)
+	end)
+	spawn(function() --Source for Script16
+		local script = Script16
+		local SGui = script.Parent
+		local Frame = SGui:WaitForChild("Frame")
+		local Button = SGui:WaitForChild("TextButton")
+		
+		Button.MouseButton1Up:Connect(function()
+			Frame.Visible = not Frame.Visible
+		end)
+	end)
+end
+createGui(game.CoreGui) --coregui by default you should but change it
