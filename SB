@@ -96,44 +96,28 @@ local function createGui(parent)
 	TextButton12["Name"] = "uni esp"
 	TextButton12["Position"] = UDim2.new(0.00400000019, 0, 1.50688183, 0)
 	TextButton12["TextSize"] = 14
-	TextButton12["Size"] = UDim2.new(0, 130, 0, 50)
+	TextButton12["Size"] = UDim2.new(0, 249, 0, 50)
 	TextButton12["BorderSizePixel"] = 0
 	TextButton12["BackgroundColor3"] = Color3.new(1, 1, 1)
 	----TextButton12----
 	--Script13--
 	local Script13 = Instance.new("Script",TextButton12)
 	----Script13----
-	--TextButton14--
-	local TextButton14 = Instance.new("TextButton",Frame2)
-	TextButton14["TextColor3"] = Color3.new(0, 0, 0)
-	TextButton14["BorderColor3"] = Color3.new(0, 0, 0)
-	TextButton14["Text"] = "anti dcube"
-	TextButton14["Font"] = Enum.Font.SourceSans
-	TextButton14["Name"] = "anti dcube"
-	TextButton14["Position"] = UDim2.new(0.5, 0, 1.50688183, 0)
-	TextButton14["TextSize"] = 14
-	TextButton14["Size"] = UDim2.new(0, 125, 0, 50)
-	TextButton14["BorderSizePixel"] = 0
-	TextButton14["BackgroundColor3"] = Color3.new(1, 1, 1)
-	----TextButton14----
-	--Script15--
-	local Script15 = Instance.new("Script",TextButton14)
-	----Script15----
-	--Script16--
-	local Script16 = Instance.new("Script",ScreenGui1)
-	----Script16----
-	--TextButton17--
-	local TextButton17 = Instance.new("TextButton",ScreenGui1)
-	TextButton17["TextColor3"] = Color3.new(0, 0, 0)
-	TextButton17["BorderColor3"] = Color3.new(0, 0, 0)
-	TextButton17["Text"] = "toggle ui"
-	TextButton17["Font"] = Enum.Font.SourceSans
-	TextButton17["Position"] = UDim2.new(0.0550847463, 0, 0.25555557, 0)
-	TextButton17["TextSize"] = 14
-	TextButton17["Size"] = UDim2.new(0, 66, 0, 29)
-	TextButton17["BorderSizePixel"] = 0
-	TextButton17["BackgroundColor3"] = Color3.new(1, 1, 1)
-	----TextButton17----
+	--Script14--
+	local Script14 = Instance.new("Script",ScreenGui1)
+	----Script14----
+	--TextButton15--
+	local TextButton15 = Instance.new("TextButton",ScreenGui1)
+	TextButton15["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton15["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton15["Text"] = "toggle ui"
+	TextButton15["Font"] = Enum.Font.SourceSans
+	TextButton15["Position"] = UDim2.new(0.0550847463, 0, 0.25555557, 0)
+	TextButton15["TextSize"] = 14
+	TextButton15["Size"] = UDim2.new(0, 66, 0, 29)
+	TextButton15["BorderSizePixel"] = 0
+	TextButton15["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton15----
 	spawn(function() --Source for Script4
 		local script = Script4
 		script.Parent.Activated:Connect(function()
@@ -190,16 +174,8 @@ local function createGui(parent)
 			end
 		end)
 	end)
-	spawn(function() --Source for Script15
-		local script = Script15
-		script.Parent.Activated:Connect(function()
-			if game.Workspace:FindFirstChild("the cube of death(i heard it kills)", 1) then
-				workspace.Arena.CubeOfDeathArea["the cube of death(i heard it kills)"].CanTouch = false
-			end
-		end)
-	end)
-	spawn(function() --Source for Script16
-		local script = Script16
+	spawn(function() --Source for Script14
+		local script = Script14
 		local SGui = script.Parent
 		local Frame = SGui:WaitForChild("Frame")
 		local Button = SGui:WaitForChild("TextButton")
